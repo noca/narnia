@@ -68,6 +68,18 @@ export default () => (
         />
         </Card>
       </Col>
+      <Col span={8}>
+        <Card
+    cover={<Empty />}
+    actions={[<Icon type="login" />, <Icon type="ellipsis" />]}
+        >
+        <Meta
+    avatar={<Avatar>S</Avatar>}
+    title="Shift"
+    description="账号"
+        />
+        </Card>
+      </Col>
     </Row>
   </div>
 );
